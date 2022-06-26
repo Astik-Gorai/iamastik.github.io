@@ -1,0 +1,44 @@
+.item{
+    margin: 2vw;
+    padding: 5vh;
+    border:2px solid black;
+    width:25vw;
+    height:10vh;
+    box-sizing: border-box;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-image: linear-gradient(to right, red,black,green,grey,blue);
+    border-radius: 3vw;
+    animation: animate 4s linear forwards,floating ease 4s 1;
+}
+@keyframes animate{
+    0%{
+       
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50%{
+       opacity: 1;
+       transform: translateY(0);
+    }
+}
+@keyframes floating {
+    0%{
+        transform: translate(0%,0%) rotate(360deg);
+    }
+    25%{
+        transform: translate(5%,15%) rotate(360deg);
+    }
+    50%{
+        transform: translate(0%,0%) rotate(360deg);
+    }
+    75%{
+        transform: translate(0%,15%) rotate(360deg);
+    }
+    100%{
+        transform: translate(0%,0%) rotate(360deg);
+    }
+}

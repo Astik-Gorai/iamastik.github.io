@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Nav{
+    border:2px solid black;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+}
+.NavItem {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:flex-end;
+}
+h3{ 
+    padding: 0vh 3vw;
+}
+li{
+    font-weight: bold;
+    list-style-type: none;
+    padding:1.5vh 2vw;
+}
