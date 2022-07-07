@@ -1,1 +1,4 @@
-# Simple Static Web Site Created Using React JS
+# Simple Static Portfolio WebSite.
+
+
+## Tech Stack : HTML , CSS , JavaScript , React JS
